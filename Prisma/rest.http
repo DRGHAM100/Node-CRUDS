@@ -1,0 +1,47 @@
+Get http://localhost:3000/api/categories
+
+###
+
+Get http://localhost:3000/api/products
+
+
+###
+
+Get http://localhost:3000/api/products/1
+
+###
+
+DELETE  http://localhost:3000/api/products/6
+
+
+###
+
+PATCH  http://localhost:3000/api/products/4
+Content-Type: application/json
+
+{
+    "name": "Bugati",
+    "price": 1200,
+    "categoryId": 1
+}
+
+
+###
+
+POST  http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "PC"
+}
+
+###
+
+POST  http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Bugati",
+    "price": 1200,
+    "categoryId": 1
+}
